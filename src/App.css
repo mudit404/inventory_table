@@ -1,0 +1,102 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;               /* Enable flexbox */
+  justify-content: center;     /* Horizontally center the content */
+  align-items: center;         /* Vertically center the content */
+  width: 100%;                 /* Ensure the header spans the full width */
+  padding: 10px 0;             /* Padding for top and bottom */
+  background-color: #333;      /* Background color (adjust as needed) */
+  color: white;                /* Text color */
+  box-sizing: border-box;      /* Ensure padding doesn't affect width */
+}
+
+/* Style for the brand name */
+.brand-name {
+  font-size: 24px;             /* Adjust font size for the brand name */
+  font-weight: bold;           /* Make the text bold */
+  text-align: center;          /* Ensure text is centered */
+}
+
+/* Optional: Add responsive styles */
+@media (max-width: 600px) {
+  .brand-name {
+    font-size: 20px;           /* Smaller font size on mobile */
+  }
+}
+
+@font-face {
+
+  font-family: 'MyCustomFont';
+
+  src: url('./fonts/Fontspring-DEMO-integralcf-bold.otf') format('otf');
+
+}
+
+
+.card{
+  padding: 5px;
+  margin: 5px;
+  border: 1px ;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.dialog {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ccc; /* Ensure border has a color */
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  background-color: #ffffff; /* Set a background color */
+}
+
+.dialog-button{
+  border: 1px solid #ccc;
+  padding: 2px;
+  border-radius: 8px;
+  /* color: black; */
+}
